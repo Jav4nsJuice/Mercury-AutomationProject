@@ -1,9 +1,5 @@
 class LoginPage
     include PageObject
-   
-    # text_field(:search_box, id: "twotabsearchtextbox")
-    # button(:search, value: "Go")
-    # div(:search_results, id: "search")
 
     text_field(:username_box, name: 'userName')
     text_field(:password_box, name: 'password')
@@ -33,3 +29,5 @@ class LoginPage
         @browser.close
     end
   end
+
+  

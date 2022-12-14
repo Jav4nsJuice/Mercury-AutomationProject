@@ -30,3 +30,5 @@ Then(/^the ([^"]*) message is displayed$/) do |message|
     expect(@login_page.login_successful_present?(message)).to eql(true)
     @login_page.close
 end
+
+

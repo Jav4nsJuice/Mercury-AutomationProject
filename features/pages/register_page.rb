@@ -1,9 +1,5 @@
 class RegisterPage
     include PageObject
-   
-    # text_field(:search_box, id: "twotabsearchtextbox")
-    # button(:search, value: "Go")
-    # div(:search_results, id: "search")
 
     text_field(:firstName_box, name: 'firstName')
     text_field(:lastName_box, name: 'lastName')
@@ -84,3 +80,5 @@ class RegisterPage
         @browser.close
     end
   end
+
+  

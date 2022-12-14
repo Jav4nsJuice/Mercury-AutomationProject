@@ -1,4 +1,4 @@
-require_relative '../pages/login_page.rb'
+require_relative '../pages/register_page.rb'
 
 # Given I am on the Mercury Tours register page
 Given(/^I am on the Mercury Tours register page$/) do
