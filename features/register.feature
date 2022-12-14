@@ -19,3 +19,6 @@ Scenario: Register a user on site
     When I enter in the Confirm Password Field the text 1234
 	And send my registration form
 	Then the Note: Your user name is Pepito. message is been displayed
+
+
+  
