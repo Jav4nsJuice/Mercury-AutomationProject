@@ -1,7 +1,7 @@
-Feature: Mercury Tours Verify Registration
-  In order to book a flight in Mercury site
+Feature: Mercury Tours Login Feature
+  In order to get involved with the Mercury website 
   As a registered customer
-  I want to test the shopping online options
+  I want to login into the website
 
 @1
 Scenario: Login Successfully with a User

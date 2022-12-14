@@ -1,7 +1,7 @@
 Feature: Mercury Tours Verify Registration
-  In order to book a flight in Mercury site
+  In order to login successfully
   As a registered customer
-  I want to test the shopping online options
+  I want to registrate properly to the Mercury website
 
 Scenario: Register a user on site        
 	Given I am on the Mercury Tours register page
